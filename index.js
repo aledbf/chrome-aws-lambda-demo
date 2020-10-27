@@ -26,5 +26,5 @@ exports.handler = async (event, context, callback) => {
     }
   }
 
-  return callback(null, result);
+  return callback(null, {"title": result});
 };

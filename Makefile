@@ -1,7 +1,7 @@
 # set default shell
 SHELL=/bin/bash -o pipefail -o errexit
 
-TAG ?=v0.1
+TAG ?=v0.2
 REGISTRY ?= aledbf
 
 IMAGE = $(REGISTRY)/chrome-aws-lambda-demo
